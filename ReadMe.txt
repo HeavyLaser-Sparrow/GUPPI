@@ -6,7 +6,7 @@ bash script in the home directory to call it. For example, the bash script could
   python3 GUPPI.py
 I used Debian 12 to create this, so I know this should work on Debian-based linux distros at 
 the very least.
-ChatGPT helped, resulting in the code being horrific, but that should not be a problem, because
+ChatGPT helped (I created GUPPI.py, all else was done by ChatGPT), resulting in the code being horrific, but that should not be a problem, because
 we, as the users, will not be reading the code, and it is not very data intesive.
 
 If you have ideas to make the code better (there are many ways to make it better, but I am too
