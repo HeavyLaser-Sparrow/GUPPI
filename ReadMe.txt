@@ -8,3 +8,6 @@ I used Debian 12 to create this, so I know this should work on Debian-based linu
 the very least.
 ChatGPT helped, resulting in the code being horrific, but that should not be a problem, because
 we, as the users, will not be reading the code, and it is not very data intesive.
+
+If you have ideas to make the code better (there are many ways to make it better, but I am too
+lazy to do so), please tell me in the Pull Requests.
