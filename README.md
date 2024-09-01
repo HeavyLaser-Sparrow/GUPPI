@@ -2,12 +2,11 @@ GUPPI stands for General User Primarily Peripheral Interface. It is used as a hu
 
 To use this for yourself, put these into a (preferably) hidden file .IntStor, and then use a
 bash script in the home directory to call it. For example, the bash script could look like so:
-  cd .Instor
+  cd .Instor;
   python3 GUPPI.py
 I used Debian 12 to create this, so I know this should work on Debian-based linux distros at 
 the very least.
-ChatGPT helped (I created GUPPI.py, all else was done by ChatGPT), resulting in the code being horrific, but that should not be a problem, because
-we, as the users, will not be reading the code, and it is not very resource intesive.
+ChatGPT helped (I created GUPPI.py, most else was done by ChatGPT), resulting in the code being horrific, but that should not be a problem, because we, as the users, will not be reading the code, and it is not very resource intensive.
 
 If you have ideas to make the code better (there are many ways to make it better, but I am too
 lazy to do so), please tell me in the Pull Requests.
