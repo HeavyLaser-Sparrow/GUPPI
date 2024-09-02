@@ -10,3 +10,6 @@ ChatGPT helped (I created GUPPI.py, most else was done by ChatGPT), resulting in
 
 If you have ideas to make the code better (there are many ways to make it better, but I am too
 lazy to do so), please tell me in the Pull Requests.
+
+If the source code of an already created dependency is changed, there will be a 0.1 update. If there is a completely new
+addition to the GUPPI, there will be a 1 update.
