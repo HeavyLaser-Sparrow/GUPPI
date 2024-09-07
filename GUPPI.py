@@ -10,18 +10,19 @@ while True:
     
     whatDo = int(input("What do you want to do?: "))
     
-    if whatDo == 0:
-        print("Exiting GUPPI")
-        break
-    elif whatDo == 1:
-        main()
-    elif whatDo == 2:
-        ipChoice = int(input("Do you want to convert IPv[4] or IPv[6]? "))
-        if ipChoice == 4:
-            mainIPv4()
-        elif ipChoice == 6:
-            mainIPv6()
-        else:
-            print("Invalid IP choice.")
-    else:
-        print("I do not know what that means")
+    match whatDo:
+        case 0:
+            print("Exiting GUPPI")
+            break
+        case 1:
+            main()
+        case 2:
+            ipChoice = int(input("Do you want to convert IPv[4] or IPv[6]? "))
+            if ipChoice == 4:
+                mainIPv4()
+            elif ipChoice == 6:
+                mainIPv6()
+            else:
+                print("Invalid IP choice.")
+        case _:
+            print("I do not know what that means")
